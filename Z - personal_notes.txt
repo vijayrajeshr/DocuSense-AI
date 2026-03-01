@@ -2,3 +2,22 @@
 2. data/uploads --> temp. storage where the user's uploaded file will be stored.
 3. src/ (source codes here) --> contains back-end logic of the app.
 4. app.py ----> The Entry Point ;  contains streamlit code; sends user's question to src/ to process
+
+
+---------------------------------------
+
+src - files explanation : 
+
+---------------------------------------
+
+1. processor.py : 
+    - extract_text() : extracts text from the uploaded pdf file.
+    - create_chunks() : splits the extracted text into smaller chunks for better processing.
+
+2. embedder.py : 
+    - get_embeddings() : converts the text chunks into vector embeddings using sentence-transformers.
+    - load_model() : loads the sentence-transformers model.
+
+3. search_engine.py : 
+    - init_faiss() : initializes the faiss index with the vector embeddings.
+    - find_matches() : finds the top k most similar text chunks to the query.

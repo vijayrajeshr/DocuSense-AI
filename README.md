@@ -1,4 +1,4 @@
-# 🪄 DocuSense AI | Semantic Document Intelligence
+#  DocuSense AI 🪄 | Semantic Document Intelligence
 
 ![DocuSense AI Banner](assets/docusense_banner.png)
 
