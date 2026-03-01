@@ -11,4 +11,4 @@ def init_faiss(embeddings):
 def find_matches(query_vector, index, k=3):
     """Finds the top k most similar text chunks to the query."""
     distances, indices = index.search(np.array(query_vector).astype('float32'), k)
-    return indices[0]
+    return distances[0], indices[0]
