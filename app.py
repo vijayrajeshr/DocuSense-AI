@@ -36,12 +36,18 @@ st.markdown("""
         --border: rgba(255, 255, 255, 0.08);
     }
 
-    [data-testid="stAppViewBlockContainer"] {
-        max-width: 900px !important;
-        margin: 0 auto !important;
-        padding-top: 2rem !important;
-        transition: padding 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-    }
+/* DO NOT TOUCH STREAMLIT LAYOUT CONTAINERS */
+
+[data-testid="stAppViewBlockContainer"] {
+    padding-top: 2rem !important;
+}
+
+/* Create our own centered wrapper */
+.center-wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
     html, body, [data-testid="stAppViewContainer"] {
         font-family: 'Inter', sans-serif;
@@ -248,8 +254,8 @@ st.markdown("""
         background: transparent !important;
     }
     header[data-testid="stHeader"] [data-testid="stToolbar"] {
-        display: none !important;
-    }
+    display: flex !important;
+}
     footer { visibility: hidden; }
 
     /* Hide Streamlit Header Anchors (the chain icon) */
@@ -343,6 +349,9 @@ with st.sidebar:
 stage_active = ("chunks" in st.session_state and st.session_state.get("main_search", ""))
 stage_class = "main-stage-active" if stage_active else ""
 st.markdown(f'<div class="main-stage-container {stage_class}">', unsafe_allow_html=True)
+
+st.markdown('<div class="center-wrapper">', unsafe_allow_html=True)
+
 st.markdown('<div style="margin-top: 10rem;"></div>', unsafe_allow_html=True)
 
 st.markdown('<h1 class="hero-title">DocuSense AI</h1>', unsafe_allow_html=True)
@@ -460,5 +469,8 @@ else:
 """, unsafe_allow_html=True)
         except Exception as e:
             st.error(f"Matrix Error: {str(e)}")
+
+
+st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown('</div>', unsafe_allow_html=True) # Close container
