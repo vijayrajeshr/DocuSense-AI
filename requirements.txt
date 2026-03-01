@@ -1,5 +1,21 @@
+# Web Interface
 streamlit
-faiss-cpu
-sentence-transformers
+
+# PDF Processing
 PyPDF2
+
+# Vector Search Engine (By Meta)
+# FAISS ---> Facebook AI Similarity Search 
+# FAISS-CPU ---> Optimized to specifically run on CPU rather than the gpu; Such that we can easily/effectively/efficiently deploy on Streamlit server.
+
+
+faiss-cpu
+
+# Local Neural Network Models (No API needed)
+sentence-transformers
+
+# Math and Data Handling
 numpy
+
+# My note : I felt this was more than enough for the project; Always open for suggestions.
+# To install all --->  | pip install -r requirements.txt |
