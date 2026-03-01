@@ -1,0 +1,4 @@
+1. Using config.taml ---> to control look and feel of the app
+2. data/uploads --> temp. storage where the user's uploaded file will be stored.
+3. src/ (source codes here) --> contains back-end logic of the app.
+4. app.py ----> The Entry Point ;  contains streamlit code; sends user's question to src/ to process
