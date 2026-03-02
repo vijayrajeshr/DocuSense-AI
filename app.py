@@ -282,7 +282,7 @@ if "initialized" not in st.session_state:
 
 # --- 4. APPLICATION UI ---
 if "neural_log" not in st.session_state:
-    st.session_state.neural_log = ["[SYSTEM] Neural Engine Initialized"]
+    st.session_state.neural_log = ["[SYSTEM] Engine Initialized"]
 if "conf_slider" not in st.session_state:
     st.session_state.conf_slider = 85
 
@@ -332,7 +332,7 @@ with st.sidebar:
         <div style="text-align: center; padding: 2rem 1rem; opacity: 0.4;">
             <div style="font-size: 2rem; margin-bottom: 1rem;">📡</div>
             <div style="font-family: 'JetBrains Mono'; font-size: 0.7rem; letter-spacing: 1px; color: #94a3b8;">SYSTEM_IDLE</div>
-            <div style="font-size: 0.6rem; color: #64748b; margin-top: 8px;">Waiting for Neural Input...</div>
+            <div style="font-size: 0.6rem; color: #64748b; margin-top: 8px;">Waiting for User Input...</div>
         </div>
         """, unsafe_allow_html=True)
 
