@@ -1,9 +1,8 @@
 <img width="1245" height="254" alt="image" src="https://github.com/user-attachments/assets/540d960f-aab9-4f39-a60f-283e23672233" />
 
-A simple Streamlit app for querying PDFs using a local LLM (Llama3.2) with RAG.
+## A simple Streamlit app for querying PDFs using a local LLM (Llama3.2) with RAG.
 
-
-
+## Note --->  Please Download the "Technical Report" in the directory best and shortest explanation of the project. 
 
 ## Setup
 
