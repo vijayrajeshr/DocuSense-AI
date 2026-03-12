@@ -1,6 +1,9 @@
-# DocuSense AI - Local LLM RAG PDF Bot
+<img width="1245" height="254" alt="image" src="https://github.com/user-attachments/assets/540d960f-aab9-4f39-a60f-283e23672233" />
 
 A simple Streamlit app for querying PDFs using a local LLM (Llama3.2) with RAG.
+
+
+
 
 ## Setup
 
