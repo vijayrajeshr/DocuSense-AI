@@ -1,6 +1,6 @@
 #  DocuSense AI 🪄 | Semantic Document Intelligence
 
-# NewUpdate :  Hi, I have also created a local-llm based rag chatbot which is available in a seperate folder; It runs on Llama3.2 which I ran locally in my system. Feel free to check it out.
+# NewUpdate : I have also created a local-llm based rag chatbot which is available in a seperate folder; It runs on Llama3.2 which I ran locally in my system. Feel free to check it out.
 
 ![DocuSense AI Banner](assets/docusense_banner.png)
 
