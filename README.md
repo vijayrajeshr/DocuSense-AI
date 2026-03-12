@@ -57,6 +57,7 @@ streamlit run app.py
 3. **Vectorization**: Sentences are normalized and transformed into dense vectors.
 4. **Querying**: Input conversational questions. The engine performs a multi-stage search and provides "Verified Insights" with a confidence score.
 
+## Hi, I have also created a local-llm based rag chatbot which is available in a seperate folder; It runs on Llama3.2 which I ran locally in my system. Feel free to check it out.
 ---
 
 ## 📂 Architecture Overview
