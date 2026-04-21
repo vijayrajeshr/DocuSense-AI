@@ -2,6 +2,8 @@
 
 ## A simple Streamlit app for querying PDFs using a local LLM (Llama3.2) with RAG.
 
+https://youtu.be/2ywmf8YkHk8
+
 ## Note --->  Please Download the "Technical Report" in the directory best and shortest explanation of the project. 
 
 ## Setup
