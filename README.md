@@ -1,4 +1,4 @@
-#  DocuSense AI 🪄 | Semantic Document Intelligence
+#  DocuSense AI | Semantic Document Intelligence
 
 # NewUpdate : I have also created a local-llm based rag chatbot which is available in a seperate folder; It runs on Llama3.2 which I ran locally in my system. Feel free to check it out.
 
